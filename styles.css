@@ -22,3 +22,67 @@ p {
     padding: 4px 8px;
     box-sizing: border-box;
 }
+header{
+    margin: 22px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    font-family: Chomsky,cursive !important;
+    font-size: 92px;
+}
+header div:first-child{
+    margin-left: 8vw;
+}
+header div:last-child{
+    margin-right: 8vw;
+}
+header div{
+    padding: 12px;
+    border: 1px solid;
+}
+nav{
+    padding: 8px 0;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    display: flex;
+    align-content: space-between;
+    text-align:justify;
+}
+article{
+    margin-top: 18px;
+}
+#side-article{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 800px;
+    max-height: 1000px;
+    flex-shrink: .3;
+    overflow: hidden;
+    padding-right: 4px;
+    border-right: 1px solid;
+    margin-right: 10px;
+}
+#side-article *{
+    width: 50%;
+}
+#side-article h3{
+    text-align: center;
+}
+#main-article{
+    margin-top: 12px;
+}
+#main-article h2{
+    margin-bottom: 10px;
+    font-size: 82px;
+    line-height: 80%;
+}
+#main-article img{
+    width: 100%;
+}
