@@ -62,7 +62,7 @@ article{
     flex-direction: column;
     flex-wrap: wrap;
     flex-basis: 800px;
-    max-height: 1000px;
+    max-height: 1450px;
     flex-shrink: .3;
     overflow: hidden;
     padding-right: 4px;
